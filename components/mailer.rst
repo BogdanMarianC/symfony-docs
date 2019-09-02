@@ -109,6 +109,9 @@ Instead of choosing a specific protocol, you can also let Symfony pick the
 If you want to override the default host for a provider (to debug an issue with
 a requestb.in like service), change ``default`` by your host:
 
+
+.. code-block:: bash
+
     mailgun+https://KEY:DOMAIN@example.com
     mailgun+https://KEY:DOMAIN@example.com:99
 
